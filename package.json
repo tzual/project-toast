@@ -4,17 +4,18 @@
   "private": true,
   "author": "Josh Comeau <me@joshwcomeau.com>",
   "dependencies": {
-    "eslint": "^8.49.0",
+    "@parcel/config-default": "^2.11.0",
+    "eslint": "^8.56.0",
     "eslint-config-react-app": "^7.0.1",
     "new-component": "5.0.2",
-    "parcel": "2.9.2",
-    "parcel-reporter-static-files-copy": "1.5.2",
-    "prettier": "2.6.2",
+    "parcel": "2.11.0",
+    "parcel-reporter-static-files-copy": "1.5.3",
+    "prettier": "3.2.5",
     "process": "0.11.10",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-feather": "2.0.10",
-    "rimraf": "^5.0.1"
+    "rimraf": "^5.0.5"
   },
   "scripts": {
     "predev": "rimraf .parcel-cache dist",
